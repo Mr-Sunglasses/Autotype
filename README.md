@@ -70,6 +70,21 @@ Autotype type --path <path of the file to write> --delay <delay in seconds befor
 
 <hr>
 
+# Dev-Setup
+```bash
+git clone https://github.com/tushar5526/Autotype
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+pip3 install -r requirements-dev.txt
+
+pre-commit
+
+pip3 install .
+
+```
 
 ## 💪 Thanks to all Wonderful Contributors
 
